@@ -3,14 +3,15 @@ import {Tabs} from "expo-router";
 
 export default function TabsLayout() {
     return (
-        <Tabs screenOptions={{
+        <Tabs
+        screenOptions={{
             tabBarActiveTintColor:"red",
             tabBarInactiveTintColor:"green",
             tabBarStyle:{
                 backgroundColor:"#f0f0ff",
-                borderTopWidth: "1",
+                borderTopWidth: 1,
                 borderTopColor:"black",
-                paddingTop:"3"
+                paddingTop:3
             },
             tabBarLabelStyle: {
                 fontSize:12,
@@ -41,4 +42,3 @@ export default function TabsLayout() {
         </Tabs>
     );
 }
-
